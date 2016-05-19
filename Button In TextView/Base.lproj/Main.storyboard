@@ -20,7 +20,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FXz-0t-dRB">
                                 <rect key="frame" x="40" y="40" width="520" height="540"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -28,10 +28,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FXz-0t-dRB" secondAttribute="bottom" constant="20" id="0Yf-5S-f8a"/>
-                            <constraint firstItem="FXz-0t-dRB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="D47-K1-bla"/>
-                            <constraint firstItem="FXz-0t-dRB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="cOC-bo-xaR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="FXz-0t-dRB" secondAttribute="trailing" constant="20" id="mky-PL-krh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FXz-0t-dRB" secondAttribute="trailing" constant="20" id="fRe-g0-ovN"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FXz-0t-dRB" secondAttribute="bottom" constant="20" id="jwv-Nl-8jl"/>
+                            <constraint firstItem="FXz-0t-dRB" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="l2R-BJ-Cmy"/>
+                            <constraint firstItem="FXz-0t-dRB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="v17-DT-ByJ"/>
                         </constraints>
                     </view>
                     <connections>

@@ -19,10 +19,9 @@ class ViewController: UIViewController {
         
         button.titleLabel?.font = txtView.font
         button.frame = CGRectMake(0, 0, 0, 0)
-        button.contentEdgeInsets = UIEdgeInsets(top: 9, left: 5, bottom: 0, right: 0)
-        button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
-        
+        button.contentEdgeInsets = UIEdgeInsets(top: 8, left: 5, bottom: 0, right: 0)
         button.setTitle("itsthefinalcountdown", forState: UIControlState.Normal)
+        button.tintColor = UIColor.redColor()
         // button.backgroundColor = UIColor.yellowColor()
         button.sizeToFit()
         
@@ -31,15 +30,11 @@ class ViewController: UIViewController {
         let exclusivePath = UIBezierPath(rect: buttonFrame)
         txtView.textContainer.exclusionPaths = [exclusivePath]
         
+        
         txtView.addSubview(button)
         
+        
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     
 }
 
